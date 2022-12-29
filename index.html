@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+        <div class="container">
+            <h1>Conversor de monedas Nacional</h1>
+            <div class="data-container">
+                <h3>Pesos CLP</h3>
+                <input type="number" id="clpMony" placeholder="Ingrese el monto en CLP">
+                <div class="to-container">
+                    <h3>Moneda a convertir</h2>
+                        <select name="" id="selectMony">
+                            <option value="seleccion">Seleccione Moneda</option>
+                            <option value="dolar">Dolar</option>
+                            <option value="euro">Euro</option>
+                            <option value="bitcoin">Bitcoin</option>
+                            <option value="utm">UTM</option>
+                            <option value="uf">UF</option>
+                        </select>
+                </div>
+                <div class="button-container">
+                    <button id="btn">Buscar</button>
+                </div>
+                <div class="ans-container" id="results">
+                </div>
+            </div>
+            <div id="graphic" class="graphic">
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/javascript/main.js"></script>
+</body>
+
+</html>
